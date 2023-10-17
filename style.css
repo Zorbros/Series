@@ -21,6 +21,14 @@ body::-webkit-scrollbar{
     color: black;
     font-size: 20px ;
 }
+.seasonborder{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    color: black;
+    font-size: 40px ;
+    display: flexbox;
+}
 
 .body2{
     border-radius: 20px;
@@ -30,15 +38,15 @@ body::-webkit-scrollbar{
     padding: 10px;
 
 }
-
-.button{
-    margin-left: 20%;
-    display: flex;
-}
-.button :hover{
+button{
     transition: all 0.4s ease-in-out;
     -o-transition: all;
     -moz-transition: all;
+}
+
+.button{
+    margin-left: 32%;
+    display: flex;
 }
 
 .About{
@@ -59,5 +67,8 @@ body::-webkit-scrollbar{
     margin: 1px;
 }
 .story{
+    display: none;
+}
+.season1{
     display: none;
 }

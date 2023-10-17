@@ -22,4 +22,18 @@ function togglefirst(){
     }
 }
 
+
+
 /// /// /// ///
+
+function season1(){
+    var season1 = document.getElementById("season1");
+
+    if(season1.style.display === "none"){
+        season1.style.display = "block";
+    }
+
+    else{
+        season1.style.display = "none";
+    }
+}
